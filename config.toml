@@ -1,0 +1,27 @@
+theme = "monokai_pro_octagon"
+
+[keys.insert]
+"C-A-l" = ":fmt"
+"C-k" = "toggle_comments"
+
+[keys.normal]
+"C-k" = "toggle_comments"
+
+
+[keys.normal."z"]
+"z" = ":w"
+
+[keys.normal."Z"]
+"Z" = ":wq"
+
+[keys.select]
+"C-k" = "toggle_comments"
+
+[editor]
+
+[editor.auto-save]
+focus-lost = true
+
+[editor.auto-save.after-delay]
+enable = true
+timeout = 1500
