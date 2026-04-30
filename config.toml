@@ -6,7 +6,9 @@ theme = "monokai_pro_octagon"
 
 [keys.normal]
 "C-k" = "toggle_comments"
-
+y = "yank_main_selection_to_clipboard"
+p = "paste_clipboard_after"
+P = "paste_clipboard_before"
 
 [keys.normal."z"]
 "z" = ":w"
@@ -16,6 +18,9 @@ theme = "monokai_pro_octagon"
 
 [keys.select]
 "C-k" = "toggle_comments"
+y = "yank_main_selection_to_clipboard"
+p = "replace_selections_with_clipboard"
+P = "paste_clipboard_before"
 
 [editor]
 
