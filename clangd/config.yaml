@@ -1,0 +1,13 @@
+# C++ 文件使用 C++26
+If:
+  PathMatch: .*\.(cpp|cc|cxx|hpp|hxx|ixx)$
+
+CompileFlags:
+  Add: [ -std=c++26 ]
+---
+# C 文件使用 C23
+If:
+  PathMatch: .*\.(c|h)$
+
+CompileFlags:
+  Add: [ -std=c23 ]
