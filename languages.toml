@@ -1,1 +1,5 @@
 indent = { tab-width = 4, unit = " " }
+[language-server.clangd]
+command = "clangd"
+# 覆盖默认启动参数，关闭自动插入头文件功能
+args = ["--header-insertion=never"]
