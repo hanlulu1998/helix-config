@@ -9,6 +9,7 @@ theme = "monokai_pro_octagon"
 y = "yank_main_selection_to_clipboard"
 p = "paste_clipboard_after"
 P = "paste_clipboard_before"
+d = ["yank_main_selection_to_clipboard", "delete_selection"]
 
 [keys.normal."z"]
 "z" = ":w"
@@ -21,6 +22,7 @@ P = "paste_clipboard_before"
 y = "yank_main_selection_to_clipboard"
 p = "replace_selections_with_clipboard"
 P = "paste_clipboard_before"
+d = ["yank_main_selection_to_clipboard", "delete_selection"]
 
 [editor]
 
