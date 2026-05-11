@@ -1,3 +1,6 @@
+# 不自动添加头
+Completion:
+  HeaderInsertion: Never
 # C++ 文件使用 C++26
 If:
   PathMatch: .*\.(cpp|cc|cxx|hpp|hxx|ixx)$
